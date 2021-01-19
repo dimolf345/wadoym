@@ -1,16 +1,23 @@
-import React, { Component } from 'react';
-import {Nav, Navbar} from 'react-bootstrap';
+import React from 'react'
+import { Navbar } from 'react-bootstrap';
+import './Header.css';
+import memehr from '../../assets/memehr.jpeg'; 
 
-
-class Header extends React.Component {
-   render() {
-      return (
-         <div>
-            <Navbar bg="dark" expand="lg">
-               <h1>Porco dio</h1>
-            </Navbar> 
-         </div>
-      )
-   }
+const Header = () => {
+   return (
+      <div className="header">
+        <Navbar className="justify-content-center" bg="dark">
+         <Navbar.Brand href="#home">
+           <img
+             src={memehr}
+              alt="logo"
+             />
+         </Navbar.Brand>
+         <h3 className="title">What do you meme online game</h3>   
+  </Navbar>
+      </div>
+   )
 }
+
 export default Header;
+//#96267c
