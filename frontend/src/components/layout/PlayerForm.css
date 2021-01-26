@@ -1,0 +1,34 @@
+.form-container {
+    width: 80%;
+    max-width: 600px;
+    margin-left: 4rem;
+}
+
+form {
+
+}
+
+form h1,h2,h3,h4,h5,h6 {
+    margin-top: 3rem;
+    text-align: center;
+    color: white;
+}
+
+input {
+    display: block;
+    width: 100%;
+    height: 55px;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    border: none;
+    padding-left: 1rem;
+}
+
+hr {
+    border: 2px solid white;
+}
+
+.button-area {
+    display: flex;
+    justify-content: space-between;
+}

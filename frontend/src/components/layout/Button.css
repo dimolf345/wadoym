@@ -1,0 +1,19 @@
+.button-container {
+    display: inline-block;
+    margin: 1rem;
+}
+button {
+    min-width: 100px;
+    max-width: 220px;
+    height: 90px;
+    border: 0 solid white;
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    transition: border-width 0.3s ease;
+}
+
+button:hover {
+    text-decoration: underline;
+    border-width: 2px;
+}

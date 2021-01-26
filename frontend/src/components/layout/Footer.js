@@ -9,7 +9,6 @@ const Header = () => {
         <Navbar className="justify-content-center">
          <Navbar.Brand href="#home">
            <img
-            id="header-img"
              src={memehr}
               alt="logo"
              />
