@@ -1,0 +1,34 @@
+#game-rules {
+    width: 20%;
+}
+
+#game-rules button {
+    color:darkviolet;
+    border: 0 solid darkviolet;
+    transition: border-width 0.3s ease;
+    height: 4rem;
+}
+
+#game-rules button:hover {
+    text-decoration: underline;
+    border-width: 2px;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    font-size: 110%;
+}
+
+@media screen and (max-width: 768px) {
+    #game-rules {
+        width: 80%;
+    }
+}
